@@ -2,6 +2,7 @@ import {
   Header,
   // Navbar,
   About,
+  Hobby
   // Education,
   // Skills,
   // Experience,
@@ -15,6 +16,7 @@ function App() {
       {/* <Navbar /> */}
       <Header />
       <About />
+      <Hobby />
       {/* <Education /> */}
       {/* <Skills /> */}
       {/* <Experience /> */}

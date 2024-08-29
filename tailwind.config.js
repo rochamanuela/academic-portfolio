@@ -16,6 +16,9 @@ export default {
         'baby-powder': '#FFFCF9',
         'celeste': '#B1EDE8',
         'murrey': '#950952',
+      },
+      scale: {
+        '50': '0.5'
       }
     },
   },

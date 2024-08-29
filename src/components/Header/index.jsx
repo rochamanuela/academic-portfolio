@@ -13,7 +13,7 @@ export default function Header() {
         Hi, I'm <span className='text-wisteria'>Manu</span>
       </h1>
 
-      <p className='text-white font-poppins font-regular ml-7 mt-2 md:ml-14 text-xl'>
+      <p className='text-white font-poppins font-regular ml-7 mt-2 md:ml-14 text-xl z-10'>
         Front end Developer <br className='md:hidden'/>and UI/UX Designer
         </p>
 
