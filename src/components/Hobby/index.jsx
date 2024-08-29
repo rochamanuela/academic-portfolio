@@ -31,33 +31,33 @@ export default function Hobby() {
                 </div>
                 <div className='items-center text-center'>
                     <span className='material-symbols-outlined text-5xl'>
-                        palette
+                        ink_pen
                     </span>
-                    <p className='text-xs'>arte<br />desenhos</p>
+                    <p className='text-xs'>escrever<br />poemas</p>
                 </div>
                 <div className='items-center text-center'>
                     <span className='material-symbols-outlined text-5xl'>
-                        palette
+                        headphones
                     </span>
-                    <p className='text-xs'>arte<br />desenhos</p>
+                    <p className='text-xs'>ouvir<br />musicas</p>
                 </div>
                 <div className='items-center text-center'>
                     <span className='material-symbols-outlined text-5xl'>
-                        palette
+                        book_5
                     </span>
-                    <p className='text-xs'>arte<br />desenhos</p>
+                    <p className='text-xs'>ler<br />livros</p>
                 </div>
                 <div className='items-center text-center'>
                     <span className='material-symbols-outlined text-5xl'>
-                        palette
+                        movie
                     </span>
-                    <p className='text-xs'>arte<br />desenhos</p>
+                    <p className='text-xs'>assistir<br />séries</p>
                 </div>
                 <div className='items-center text-center'>
                     <span className='material-symbols-outlined text-5xl'>
-                        palette
+                        skillet
                     </span>
-                    <p className='text-xs'>arte<br />desenhos</p>
+                    <p className='text-xs'>cozinhar<br />doces</p>
                 </div>
             </div>
 
