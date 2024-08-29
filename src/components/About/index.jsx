@@ -4,9 +4,9 @@ import Mockup from '../../assets/images/mockup-for-about.png'
 export default function About() {
   return (
     <div className='bg-white'>
-      <h1 className='font-sora font-medium text-4xl px-6 mt-14 mb-6'>Sobre Mim</h1>
+      <h1 className='font-sora font-medium text-4xl px-6 mt-14 mb-6 element'>Sobre Mim</h1>
       
-      <div className='font-poppins text-justify px-6 mb-10 text-sm leading-6'>
+      <div className='font-poppins text-justify px-6 mb-10 text-sm leading-6 element'>
         <p>Meu nome é Manuela, mas pode me chamar de Manu. Tenho 20 anos e estou cursando o 
           4° semestre do curso de Análise e Desenvolvimento de Sistemas no Instituto Federal 
           de Educação, Ciência e Tecnologia de São Paulo, no campus Hortolândia.</p>
@@ -19,7 +19,7 @@ export default function About() {
           tornar dev e UX/UI.</p>
       </div>
 
-      <img src={Mockup} className='w-80 mx-auto mb-14' />
+      <img src={Mockup} className='w-80 mx-auto mb-14 element' />
     </div>
   )
 }

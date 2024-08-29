@@ -12,9 +12,11 @@ export default function Hobby() {
             <img src={Blur3} className='absolute left-0 top-0 w-full h-full z-0 object-cover opacity-60' />
             <img src={Blur4} className='absolute right-0 top-0 w-full h-full z-0 object-cover opacity-60' />
 
-            <h1 className='relative font-sora font-medium text-4xl text-white z-10 text-center mt-14 mb-10 md:mt-36 md:ml-14'>
-                Hobbies que <br />aprecio
-            </h1>
+            <div className='element'>
+                <h1 className='relative font-sora font-medium text-4xl text-white z-10 text-center mt-14 mb-10'>
+                    Hobbies que <br />aprecio
+                </h1>
+            </div>
 
             <div
                 className='relative z-10 text-white flex flex-wrap gap-x-8 gap-y-9 px-14 justify-center'
@@ -59,7 +61,7 @@ export default function Hobby() {
                 </div>
             </div>
 
-            <div className='relative w-80 m-auto mt-16'>
+            <div className='relative w-80 m-auto mt-16 xl:scale-150'>
                 <img src={Mac} className='w-full h-auto object-cover' />
                 <div className='scale-50 z-20'>
                     <iframe
@@ -72,8 +74,6 @@ export default function Hobby() {
                     ></iframe>
                 </div>
             </div>
-
-
         </div>
     );
 }

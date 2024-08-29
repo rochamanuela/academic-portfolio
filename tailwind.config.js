@@ -19,8 +19,20 @@ export default {
       },
       scale: {
         '50': '0.5'
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { opacity: 0, transform: 'translateX(-20px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        slideIn: 'slideIn 0.5s ease-out',
+      },
+      height: {
+        '100': '500px' 
       }
     },
   },
-plugins: [],
+  plugins: [],
 }

@@ -2,8 +2,8 @@ import {
   Header,
   // Navbar,
   About,
-  Hobby
-  // Education,
+  Hobby,
+  Education,
   // Skills,
   // Experience,
   // Footer
@@ -12,12 +12,12 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='view'>
       {/* <Navbar /> */}
       <Header />
       <About />
       <Hobby />
-      {/* <Education /> */}
+      <Education />
       {/* <Skills /> */}
       {/* <Experience /> */}
       {/* <Footer /> */}
