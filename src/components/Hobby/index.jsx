@@ -9,6 +9,10 @@ export default function Hobby() {
 
     return (
         <div className='bg-rich-black min-h-screen relative overflow-hidden font-poppins'>
+            {/* <svg width="1280" height="127" viewBox="0 0 1280 127" fill="none" xmlns="http://www.w3.org/2000/svg" className='z-10'>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1280 127L1209 102C1138 76 996 25 853 25C711 25 569 76 427 95C284 114 142 102 71 95L0 89V0H71C142 0 284 0 427 0C569 0 711 0 853 0C996 0 1138 0 1209 0H1280V127Z" fill="white" />
+            </svg> */}
+
             <img src={Blur3} className='absolute left-0 top-0 w-full h-full z-0 object-cover opacity-60' />
             <img src={Blur4} className='absolute right-0 top-0 w-full h-full z-0 object-cover opacity-60' />
 

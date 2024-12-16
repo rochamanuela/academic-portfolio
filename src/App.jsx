@@ -4,7 +4,7 @@ import {
   About,
   Hobby,
   Education,
-  // Skills,
+  Skills,
   // Experience,
   Footer
 } from './components'
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Hobby />
       <Education />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Experience /> */}
       <Footer />
     </div>

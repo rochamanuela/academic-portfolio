@@ -22,13 +22,6 @@ const timelineData = [
         date: 'Cursando desde março de 2023',
         color: 'bg-black',
     },
-    {
-        id: 4,
-        institution: 'Cubos Academy',
-        course: 'Minicurso de Product Design',
-        date: 'Cursando desde agosto de 2024',
-        color: 'bg-black',
-    },
 ]
 
 export default function Timeline() {
