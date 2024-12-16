@@ -10,6 +10,9 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         sora: ['Sora', 'sans-serif']
       },
+      fontSize: {
+        xxs: '10px'
+      },
       colors: {
         'rich-black': '#0D1117',
         'wisteria': '#BC96E6',

@@ -2,8 +2,8 @@ import React from 'react'
 import './style.css'
 
 import SkillBar from '../SkillBar'
-import Blur5 from '../../assets/images/blur-5.png';
-import Blur6 from '../../assets/images/blur-6.png';
+import Blur5 from '../../assets/images/blur-5.png'
+import Blur6 from '../../assets/images/blur-6.png'
 
 export default function Skills() {
     return (
@@ -11,8 +11,8 @@ export default function Skills() {
             <img src={Blur5} className='absolute right-0 h-full top-0 z-0 object-cover' />
             <img src={Blur6} className='absolute left-0 bottom-0 z-0 object-cover' />
         
-            <h1 className='text-3xl font-sora mt-8 mb-12 lg:max-w-sm z-10'><span className='text-[#BC96E6]'>Habilidades</span> que estou buscando aperfeiçoar</h1>
-            <div className='lg:w-1/2 lg:max-w-xl z-10 lg:mb-[-30px]'>
+            <h1 className='text-3xl z-10 font-sora mt-8 mb-12 lg:max-w-sm'><span className='text-[#BC96E6]'>Habilidades</span> que estou buscando aperfeiçoar</h1>
+            <div className='z-10 lg:w-1/2 lg:max-w-xl lg:mb-[-30px]'>
                 <p className='mb-2'>Compreensão integral do usuário</p>
                 <SkillBar color={'#DA378C'} backgroundColor={'rgba(218, 55, 140, 0.2)'} size={'50%'} />
 

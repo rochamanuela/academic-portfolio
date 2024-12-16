@@ -5,7 +5,7 @@ import {
   Hobby,
   Education,
   Skills,
-  // Experience,
+  Projects,
   Footer
 } from './components'
 import './App.css'
@@ -19,7 +19,7 @@ function App() {
       <Hobby />
       <Education />
       <Skills />
-      {/* <Experience /> */}
+      <Projects />
       <Footer />
     </div>
   )

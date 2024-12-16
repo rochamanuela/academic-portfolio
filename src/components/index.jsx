@@ -5,6 +5,8 @@ import Education from "./Education";
 import Footer from "./Footer";
 import Skills from "./Skills";
 import SkillBar from "./SkillBar";
+import Card from "./Card";
+import Projects from "./Projects";
 
 export {
     About,
@@ -13,5 +15,7 @@ export {
     Education,
     Footer,
     Skills,
-    SkillBar
+    SkillBar,
+    Card,
+    Projects
 }
