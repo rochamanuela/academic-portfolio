@@ -27,7 +27,7 @@ const timelineData = [
 export default function Timeline() {
     return (
         <div className='flex flex-col ml-7 mt-10 font-poppins'>
-            <div className='relative w-full border-l-2 bg-white h-100 pr-6'>
+            <div className='relative w-full border-l-2 bg-white h-[350px] 445:h-[315px] 564:h-[265px] sm:h-[255px] pr-6'>
                 {timelineData.map((item, index) => (
                     <div key={item.id} className='flex items-start mb-10 relative element2'>
                         <div className={`${item.color} w-4 h-4 rounded-full absolute -left-2`}></div>

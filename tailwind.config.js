@@ -34,6 +34,11 @@ export default {
       },
       height: {
         '100': '500px' 
+      },
+      screens: {
+        'in': '916px',
+        '445': '445px',
+        '564': '564px',
       }
     },
   },
