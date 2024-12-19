@@ -1,6 +1,6 @@
 import {
   Header,
-  // Navbar,
+  Navbar,
   About,
   Hobby,
   Education,
@@ -13,7 +13,7 @@ import './App.css'
 function App() {
   return (
     <div className='view'>
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
       <About />
       <Hobby />

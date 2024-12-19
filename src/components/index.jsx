@@ -7,6 +7,9 @@ import Skills from "./Skills";
 import SkillBar from "./SkillBar";
 import Card from "./Card";
 import Projects from "./Projects";
+import Navbar from "./Navbar";
+import Typewriter from "./Animations/Typewriter";
+import AnimatedSection from "./Animations/AnimatedSection";
 
 export {
     About,
@@ -17,5 +20,8 @@ export {
     Skills,
     SkillBar,
     Card,
-    Projects
+    Projects,
+    Navbar,
+    Typewriter,
+    AnimatedSection
 }

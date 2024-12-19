@@ -1,5 +1,6 @@
 import React from 'react'
 import Mockup from '../../assets/images/mockup-for-about.png'
+import Typewriter from '../Animations/Typewriter'
 
 export default function About() {
   return (
@@ -9,14 +10,20 @@ export default function About() {
         <div className='font-poppins text-justify mb-10 text-sm leading-6 element'>
           <p>Meu nome é Manuela, mas pode me chamar de Manu. Tenho 20 anos e estou cursando o
             4° semestre do curso de Análise e Desenvolvimento de Sistemas no Instituto Federal
-            de Educação, Ciência e Tecnologia de São Paulo, no campus Hortolândia.</p>
+            de Educação, Ciência e Tecnologia de São Paulo, no campus Hortolândia.
+          </p>
           <br />
-          <p>Não sei como, mas parece que do dia pra noite eu decidi que queria ser dev e aqui
+          <p>
+            <Typewriter
+              text="Não sei como, mas parece que do dia pra noite eu decidi que queria ser dev e aqui
             estou eu. Bom, desde criança sempre gostei de desafios e coisas que me fizessem ir
             além, e claro, coisas que impulsionassem o meu crescimento. Sempre gostei muito de
             arte (e continuo amando) e de uma maneira muito doida eu também sempre gostei muito
             de matemática, e parece que foi assim que eu consegui unir as duas coisas e me
-            tornar dev e UX/UI.</p>
+            tornar dev e UX/UI."
+              delay={10}
+            />
+          </p>
         </div>
       </div>
 

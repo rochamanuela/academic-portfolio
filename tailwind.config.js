@@ -19,6 +19,7 @@ export default {
         'baby-powder': '#FFFCF9',
         'celeste': '#B1EDE8',
         'murrey': '#950952',
+        'custom-bg': 'linear-gradient(180deg, rgba(13, 17, 23, 0.7) 0%, rgba(13, 17, 23, 0) 100%)'
       },
       scale: {
         '50': '0.5'
@@ -39,7 +40,13 @@ export default {
         'in': '916px',
         '445': '445px',
         '564': '564px',
-      }
+      },
+      backdropBlur: {
+        35: '35px',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, #2F2B3F 0%, #11161E 50%, #290F23 100%)',
+      },
     },
   },
   plugins: [],
