@@ -12,7 +12,7 @@ export default function Hobby() {
     const [hasHover, setHasHover] = useState(false);
 
     return (
-        <div className='bg-rich-black relative overflow-hidden font-poppins pt-52 py-24 xl:flex xl:items-center xl:justify-center'>
+        <div className='bg-rich-black relative overflow-hidden font-poppins pt-36 sm:pt-52 py-24 xl:flex xl:items-center xl:justify-center'>
 
             <img src={Blur3} className='absolute left-0 top-0 w-full h-full xl:w-auto xl:h-auto z-0 object-cover opacity-60' />
             <img src={Blur4} className='absolute right-0 top-0 w-full h-full xl:w-auto z-0 object-cover opacity-60' />

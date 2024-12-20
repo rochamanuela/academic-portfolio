@@ -39,7 +39,7 @@
 }
 
 .footer .footer-content-links .social-media-links a:hover {
-    color: #FF6980;
+    color: #BC96E6;
 }
 
 .footer .footer-content-links .social-media-links {
@@ -86,8 +86,8 @@
 
 .btn-container a button.primary-btn:hover,
 .btn-container a button.secondary-btn:hover {
-    background-color: var(--amaranth);
-    border-color: var(--amaranth);
+    background-color: #a27ccc;
+    border-color: #a27ccc;
     color: #fff;
 }
 

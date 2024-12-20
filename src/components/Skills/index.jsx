@@ -7,7 +7,7 @@ import Blur6 from '../../assets/images/blur-6.png'
 
 export default function Skills() {
     return (
-        <div className='bg-rich-black relative mb-20 overflow-hidden font-poppins text-white px-8 py-16 md:px-20 lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:gap-24 lg:px-12 lg:py-24'>
+        <div className='bg-rich-black relative overflow-hidden font-poppins text-white px-8 py-16 md:px-20 lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:gap-24 lg:px-12 lg:py-24'>
             <img src={Blur5} className='absolute right-0 h-full top-0 z-0 object-cover' />
             <img src={Blur6} className='absolute left-0 bottom-0 z-0 object-cover' />
         

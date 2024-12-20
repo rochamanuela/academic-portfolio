@@ -54,7 +54,7 @@ export default function Projects() {
   ]
 
   return (
-    <div className='px-8 md:px-20 in:px-32 mb-32'>
+    <div id='projects' className='px-8 pt-32 md:px-20 in:px-32 mb-32'>
       <div className='font-poppins lg:flex lg:flex-row justify-between items-center mb-10'>
         <h1 className='text-2xl font-sora font-semibold mb-5 lg:mb-0'>Conheça meus <span className='text-[#950952]'>projetos</span></h1>
         <div className='flex flex-row items-center gap-6'>

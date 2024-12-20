@@ -34,7 +34,8 @@ export default {
         slideIn: 'slideIn 0.5s ease-out',
       },
       height: {
-        '100': '500px' 
+        '100': '500px',
+        '90vh': '90vh',
       },
       screens: {
         'in': '916px',

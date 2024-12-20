@@ -1,0 +1,25 @@
+.cursor-text-link {
+    position: relative;
+  }
+  
+  .custom-cursor {
+    position: absolute;
+    pointer-events: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    display: none; /* Inicialmente invisível */
+    white-space: nowrap;
+  }
+  
+  .cursor-text-link:hover .custom-cursor {
+    display: block; /* Exibe o cursor quando o mouse está sobre o link */
+  }
+  
+  #custom-cursor {
+    z-index: 9999; /* Garante que o texto fique por cima de outros elementos */
+  }
+  

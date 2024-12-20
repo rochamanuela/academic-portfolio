@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Mockup from '../../assets/images/mockup-for-about.png'
 import Typewriter from '../Animations/Typewriter'
+import './style.css'
+import { Avatar } from '@mui/material'
 
 export default function About() {
   return (
-    <div className='bg-white px-8 md:px-20 md:py-20 lg:flex lg:flex-row-reverse lg:items-center lg:justify-center lg:gap-20'>
+    <div id='about' className='bg-white px-8 md:px-20 md:py-20 lg:flex lg:flex-row-reverse lg:items-center lg:justify-center lg:gap-20'>
       <div className='lg:max-w-2xl'>
         <h1 className='font-sora font-medium text-4xl mt-14 mb-6 element'>Sobre Mim</h1>
         <div className='font-poppins text-justify mb-10 text-sm leading-6 element'>
@@ -27,7 +29,9 @@ export default function About() {
         </div>
       </div>
 
-      <img src={Mockup} className='w-80 mx-auto lg:mx-0 lg:mb-[-50px] mb-10 element' />
+      <a href="https://manuela-souza.vercel.app/">
+        <img src={Mockup} className='w-80 mx-auto lg:mx-0 lg:mb-[-50px] mb-10 element transition-all duration-200 hover:scale-110' />
+      </a>
     </div>
   )
 }

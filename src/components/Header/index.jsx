@@ -9,7 +9,7 @@ import './style.css'
 
 export default function Header() {
   return (
-    <div className='bg-rich-black min-h-screen relative overflow-hidden'>
+    <div className='bg-rich-black h-90vh lg:min-h-screen relative overflow-hidden'>
       <img src={Blur1} className='absolute left-0 top-0 h-full z-0 object-cover opacity-60' />
       <img src={Blur2} className='absolute right-0 top-0 h-full z-0 object-cover' />
 

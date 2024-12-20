@@ -3,10 +3,11 @@
     height: 16px;
     margin-bottom: 30px;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .skill-bar {
     height: 16px;
-    margin-bottom: 30px;
     border-radius: 15px;
+    transition: width 2s ease;
 }
