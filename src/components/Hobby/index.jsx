@@ -76,8 +76,6 @@ export default function Hobby() {
                     <div className='scale-50 z-20'>
                         <iframe
                             style={{ borderRadius: '15px', border: '5px solid black', marginLeft: '-109.5px', marginTop: '-284px' }}
-                            // src="https://open.spotify.com/embed/playlist/4neCaH5ZFX0M6dnvjkCQJT?utm_source=generator&theme=0"
-                            // src="https://open.spotify.com/embed/playlist/4H0jXVaF1TPobzHhgWkgg6?utm_source=generator&theme=0"
                             src="https://open.spotify.com/embed/playlist/4H0jXVaF1TPobzHhgWkgg6?utm_source=generator&theme=0"
                             width="535" height="361"
                             allowfullscreen=""
