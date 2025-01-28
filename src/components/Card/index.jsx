@@ -68,7 +68,7 @@ export default function Card({ data }) {
                                 <h1 className='font-sora font-semibold text-2xl'>{data.projectName}</h1>
                                 <div className='flex flex-row gap-1 justify-end'>
                                     {data.technologies?.map((tech, index) => (
-                                        <p key={index} className='py-1 px-3 bg-gray-100 rounded-3xl text-xs'>{tech}</p>
+                                        <p key={index} className='py-1 px-3 bg-slate-100 rounded-3xl text-xs transition-all duration-300 cursor-pointer hover:bg-thitle'>{tech}</p>
                                     ))}
                                 </div>
                             </div>
@@ -86,7 +86,9 @@ export default function Card({ data }) {
                                         <p className='font-sora font-medium'>Desenvolvedores</p>
                                         <div className='flex flex-row gap-1'>
                                             {data.developers?.map((dev, index) => (
-                                                <p key={index} className='text-xs text-gray-600'>{dev.devName}, </p>
+                                                <p key={index} className='text-xs text-gray-600'>
+                                                    {dev.devName}{index !== data.developers.length - 1 ? ', ' : ''}
+                                                </p>
                                             ))}
                                         </div>
                                     </div>

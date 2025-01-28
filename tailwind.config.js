@@ -16,6 +16,7 @@ export default {
       colors: {
         'rich-black': '#0D1117',
         'wisteria': '#BC96E6',
+        'thitle': '#DDCAF2',
         'baby-powder': '#FFFCF9',
         'celeste': '#B1EDE8',
         'murrey': '#950952',
