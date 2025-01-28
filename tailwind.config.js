@@ -39,8 +39,10 @@ export default {
       },
       screens: {
         'in': '916px',
+        '400': '400px',
         '445': '445px',
         '564': '564px',
+        '590': '590px',
       },
       backdropBlur: {
         35: '35px',
