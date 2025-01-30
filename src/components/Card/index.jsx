@@ -17,7 +17,7 @@ export default function Card({ data }) {
     return (
         <>
             <div className='font-poppins w-80 rounded-xl border-gray-300 border'>
-                <div className='image rounded-t-xl bg-cover h-48 flex flex-row text-white justify-between text-xxs px-6 py-5' style={{ backgroundImage: `linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(${data.image})` }}>
+                <div className='image rounded-t-xl bg-cover h-48 flex flex-row text-white justify-between text-xxs px-6 py-5' style={{ backgroundImage: `linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 60%), url(${data.image})` }}>
                     <p>{data.period}</p>
                     <p>{data.lecturer}</p>
                 </div>
