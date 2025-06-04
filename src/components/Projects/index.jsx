@@ -1,7 +1,4 @@
-import React from 'react'
 import Card from '../Card'
-
-import Teste from '../../assets/images/teste.png'
 import Teste2 from '../../assets/images/jungkook.png'
 
 import Acodemy from '../../assets/images/covers/acodemy-image.png'
@@ -14,11 +11,8 @@ import Magazu from '../../assets/images/covers/magazu-image.png'
 import NaturezaViva from '../../assets/images/covers/natureza-viva-image.png'
 import Starbuzz from '../../assets/images/covers/starbuzz-image.png'
 import YoungBank from '../../assets/images/covers/youngbank-image.png'
-
-
-import { IoIosArrowDown } from "react-icons/io";
-import { IoGridOutline } from "react-icons/io5";
-import { IoListOutline } from "react-icons/io5";
+import Lotus from '../../assets/images/covers/lotus-capa.png'
+import Chaeso from '../../assets/images/covers/capa-chaeso.png'
 
 export default function Projects() {
   const data = [
@@ -131,7 +125,7 @@ export default function Projects() {
       lecturer: "Fernando Sambinelli",
       subject: "Desenvolvimento para Dispositivos Móveis",
       projectName: "Lótus",
-      projectDescription: "Aplicativo mobile voltado ao suporte emocional de usuários em momentos difíceis, como crises de ansiedade.A plataforma oferece funcionalidades diversas, incluindo exercícios de respiração guiada, músicas relaxantes, dicas de alimentação e sugestões práticas para ajudar na recuperação do bem - estar.O objetivo é fornecer uma ferramenta acessível que funcione como um 'assistente emocional' portátil.",
+      projectDescription: "Aplicativo mobile voltado ao suporte emocional de usuários em momentos difíceis, como crises de ansiedade.A plataforma oferece funcionalidades diversas, incluindo exercícios de respiração guiada, músicas relaxantes, dicas de alimentação e sugestões práticas para ajudar na recuperação do bem - estar. O objetivo é fornecer uma ferramenta acessível que funcione como um 'assistente emocional' portátil.",
       developers: [{
         devId: 1,
         devName: 'Manuela',
@@ -145,7 +139,7 @@ export default function Projects() {
       technologies: ["XML", "JAVA", "ANDROID STUDIO"],
       figmaLink: "https://www.figma.com/design/syjC9rp0OGeR1A6W4h3VzG/Mobile?m=auto&t=Nu4CZ63bRoiNUxuH-6",
       githubLink: "null",
-      image: null
+      image: Lotus
     },
     {
       id: 6,
@@ -196,7 +190,7 @@ export default function Projects() {
       technologies: ["REACT NATIVE", "DJANGO"],
       figmaLink: "null",
       githubLink: "https://github.com/ChaesoProject",
-      image: null
+      image: Chaeso
     },
     {
       id: 8,
@@ -331,7 +325,7 @@ export default function Projects() {
 
       </div>
       <div className='flex flex-row gap-5 flex-wrap justify-center'>
-        {data.map((item, index) => (
+        {data.map((item) => (
           <Card key={item.id} data={item} />
         ))}
       </div>

@@ -76,13 +76,13 @@ export default function Card({ data }) {
 
                             <div className='mt-7 flex flex-col 400:flex-row 400:justify-between 400:items-center'>
                                 <div className='flex flex-col 590:flex-row'>
-                                    <div className='flex flex-row'>
+                                    {/* <div className='flex flex-row'>
                                         {data.developers?.map((dev, index) => (
                                             <img key={index} src={dev.devPhoto} className='h-11 w-11 object-cover rounded-3xl' style={{ marginRight: '-8px', borderColor: 'white', borderWidth: '3px' }} />
                                         ))}
-                                    </div>
+                                    </div> */}
 
-                                    <div className='590:ml-6 590:mt-0 mt-3 flex flex-col justify-center'>
+                                    <div className='590:ml-0 590:mt-0 mt-3 flex flex-col justify-center'>
                                         <p className='font-sora font-medium'>Desenvolvedores</p>
                                         <div className='flex flex-row gap-1'>
                                             {data.developers?.map((dev, index) => (
